@@ -1,0 +1,6 @@
+node_modules/
+#ignoramos el archivo de configuracion
+vendor/*
+
+#ignoramos la configuracion
+app/config/config.php

@@ -1,0 +1,14 @@
+{
+  "name": "sena/mvc-2696521",
+  "authors": [
+    {
+      "name": "Jesus Galvis",
+      "email": "jgalviscontreras38@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sena\\": "app/"
+    }
+  }
+}
