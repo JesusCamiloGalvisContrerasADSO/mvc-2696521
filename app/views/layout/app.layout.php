@@ -11,8 +11,9 @@
   <header>
 
   </header>
-
-  <?= $contend ?>
+  <div class="container">
+    <?= $contend ?>
+  </div>
 
 </body>
 </html>

@@ -9,6 +9,9 @@ class MainController extends Controller{
 
   public function index()
   {
-    $this->view('home', 'app');
+    $data = [
+      'title' => 'Vacio'
+    ];
+    $this->view('home', $data, 'app');
   }
 }

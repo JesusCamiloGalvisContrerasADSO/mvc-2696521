@@ -8,4 +8,4 @@ define('HOST', '');
 define('DB', '' );
 define('USER', '' );
 define('PASSWORD',  '');
-define('CHARSET', 'utf8mb4');
+define('CHARSET', 'utf8');

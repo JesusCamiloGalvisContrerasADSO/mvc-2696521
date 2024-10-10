@@ -2,3 +2,19 @@ body{
   background-color: #000;
   color: #fff;
 }
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.table{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 80px;
+  grid-template-rows: max-content;
+}
+
+.table div{
+  padding: 10px;
+  border: solid 1px #fff;
+}

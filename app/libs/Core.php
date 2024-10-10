@@ -24,7 +24,7 @@ class Core{
       if(isset($url[1])){
         if(method_exists($this->controller, $url[1])){
           $this->method = $url[1];
-          // unset($url[1]);
+          unset($url[1]);
         }else{
           die("El metodo solicitado no fue programado");
         }
@@ -43,6 +43,7 @@ class Core{
       $url = filter_var($url, FILTER_SANITIZE_URL);
       $url = explode('/', $url);
     }
+
     return $url;
   }
 
